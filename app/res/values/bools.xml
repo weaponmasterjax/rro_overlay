@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <bool name="config_fpCancelIfNotIdle">true</bool>
+  <bool name="config_is_powerbutton_fps">true</bool>
 </resources>
