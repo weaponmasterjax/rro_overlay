@@ -2,4 +2,6 @@
 <resources>
   <bool name="config_is_powerbutton_fps">true</bool>
   <bool name="config_fingerprintWakeAndUnlock">false</bool>
+  <bool name="config_fpCancelIfNotIdle">true</bool>
+
 </resources>
