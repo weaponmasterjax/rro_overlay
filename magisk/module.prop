@@ -1,6 +1,6 @@
-id=MagiskRuntimeResourceOverlay
-name=Note11累计更新预览
+id=lolripsettingsoverlay
+name=Settings refresh rate overlay
 version=v2
 versionCode=20230110 
 author=AMD,YES!
-description=累计更新预览，模块制作Github weaponamsterjax
+description=show refresh rate in settings
