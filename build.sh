@@ -2,7 +2,7 @@
 set -e
 
 APK_NAME=MagiskRRO
-OVERLAY_PATH=system/overlay
+OVERLAY_PATH=system/product/overlay
 
 [ -z "${ANDROID_HOME}" ] && {
   # shellcheck disable=SC2016

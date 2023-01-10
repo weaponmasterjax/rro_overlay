@@ -1,6 +1,6 @@
 id=MagiskRuntimeResourceOverlay
-name=Magisk Runtime Resource Overlay
-version=v1
-versionCode=100
-author=Milkice, ysc3839
-description=Template for building Android Runtime Resource Overlay magisk module
+name=Note11累计更新预览
+version=v2
+versionCode=20230110 
+author=AMD,YES!
+description=累计更新预览，模块制作Github weaponamsterjax
