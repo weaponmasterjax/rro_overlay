@@ -3,9 +3,6 @@
    <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
    <bool name="config_dynamic_bind_ims">true</bool>
 
-   <!-- ImsService package name to bind to by default, if config_dynamic_bind_ims is true -->
-   <string name="config_ims_package">com.mediatek.ims</string>
-
    <!-- Whether device supports double tap to wake -->
    <bool name="config_supportDoubleTapWake">true</bool>
 
@@ -21,24 +18,15 @@
 
    <!-- Pocket Lock -->
    <bool name="config_pocketModeSupported">true</bool>
+    <!-- Enables or disables fading edges when marquee is enabled in TextView.
+         Off by default, since the framebuffer readback used to implement the
+         fading edges is prohibitively expensive on most GPUs. -->
+   <bool name="config_ui_enableFadingMarquee">true</bool>
 
-   <!-- Delay that allows some content to arrive at the display before switching
-         from DOZE to ON, in millis. -->
-   <integer name="config_wakeUpDelayDoze">32</integer>
-
-   <!-- An array of arrays of side fingerprint sensor properties relative to each display.
-         Note: this value is temporary and is expected to be queried directly
-         from the HAL in the future. -->
-   <array name="config_sfps_sensor_props" translatable="false">
-      <item>@array/config_sfps_sensor_props_0</item>
-   </array>
-
-   <array name="config_sfps_sensor_props_0" translatable="false">
-      <item></item> <!--item>displayId</item-->
-      <item>1080</item> <!--item>sensorLocationX</item-->
-      <item>955</item> <!--item>sensorLocationY</item-->
-      <item>110</item> <!--item>sensorRadius</item-->
-   </array>
-   <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-   <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/usb/pd_active</string>
+    <!-- Determines whether the shell features all run on another thread. -->
+   <bool name="config_enableShellMainThread">true</bool>
+   <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
+        manually by the user. Off by default, since the expected haptic feedback may not be
+        available on some devices. -->
+   <bool name="config_enableHapticTextHandle">true</bool>
 </resources>
