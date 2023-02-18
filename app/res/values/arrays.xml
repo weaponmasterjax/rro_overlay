@@ -148,12 +148,12 @@
         <item>2100</item>
         <item>2500</item>
         <item>2900</item>
+        <item>3000</item>
         <item>3100</item>
-        <item>3700</item>
-        <item>4000</item>
-        <item>4200</item>
+        <item>3200</item>
+        <item>3300</item>
         <item>4500</item>
-        <item>5200</item>
+        <item>4500</item>
     </integer-array>
 
    <!-- Array of desired screen brightness in nits corresponding to the lux values
