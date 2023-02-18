@@ -151,9 +151,9 @@
         <item>3100</item>
         <item>3700</item>
         <item>4000</item>
-        <item>4300</item>
-        <item>4700</item>
-        <item>5500</item>
+        <item>4200</item>
+        <item>4500</item>
+        <item>5200</item>
     </integer-array>
 
    <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -350,13 +350,13 @@
         <item>346.2251</item>
         <item>354.567</item>
         <item>370.799</item>
-        <item>413.1738</item>
-        <item>415.6397</item>
-        <item>417.264</item>
-        <item>419.264</item>
-        <item>421.264</item>
-        <item>424.646</item>
-        <item>427.6287</item>
+        <item>418.1738</item>
+        <item>425.6397</item>
+        <item>432.264</item>
+        <item>439.264</item>
+        <item>446.264</item>
+        <item>450.646</item>
+        <item>457.6287</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
