@@ -4,7 +4,7 @@
          from DOZE to ON, in millis. -->
     <integer name="config_wakeUpDelayDoze">32</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2500</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">2500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4500</integer>
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
     <!-- Fast brightness animation ramp rate in brightness units per second-->
