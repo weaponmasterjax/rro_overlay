@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-APK_NAME=Evergofix
+APK_NAME=Evergofixer
 OVERLAY_PATH=system/vendor/overlay
 
 [ -z "${ANDROID_HOME}" ] && {
