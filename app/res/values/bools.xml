@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="config_show_refresh_rate_controls">true</bool>
+    <name="config_supports_dynamic_refresh_rate_controls">true</bool>
 </resources>
