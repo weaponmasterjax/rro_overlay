@@ -1,6 +1,6 @@
-id=refreshfix
-name=refresh rate fix for evergo
-version=v7
+id=refreshfixsettings
+name=refresh rate fix for evergo settings
+version=v72
 versionCode=778
 author=AMD,YES!
 description=fix smooth display
