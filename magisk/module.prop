@@ -1,6 +1,6 @@
-id=Fuckpe
-name=撅evergo
+id=refreshfix
+name=refresh rate fix for evergo
 version=v7
 versionCode=778
 author=AMD,YES!
-description=修复亮度等等
+description=fix smooth display
